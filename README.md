@@ -33,8 +33,8 @@ Now to view that all our dataframes are correct use the .head() method to make s
 
 ![image](https://user-images.githubusercontent.com/93686963/169939325-70dd63bd-50f1-4ee5-a437-d5dd42fa6afb.png)
 
-Deliverable 2:
-- Extract and Transform the Wikipedia Data with the ETL_clean_wiki_movies.ipynb:
+Deliverable 2: - Extract and Transform the Wikipedia Data with the ETL_clean_wiki_movies.ipynb
+
 
 Create the code for the clean movie function that takes in the argument "movie".
 Add the function you created in step 1 that reads in the three data files.
@@ -58,4 +58,22 @@ Set the wiki_movies_df equal to the wiki_file variable.
 Add the columns from wiki_movies_df DataFrame to a list, and confirm that they are the same as this image:
 
 ![image](https://user-images.githubusercontent.com/93686963/169939630-97ce469e-2d02-4beb-bea4-ff94be53099b.png)
+
+Deliverable 3 : Extract and Transform the Kaggle Data using the ETL_clean_kaggle_data.ipynb
+
+Add the function was created in our very first python file that reads in the three data files and creates the kaggle_metadata and ratings DataFrames. Also, make sure you add in all of the code from the ETL_clean_wiki_movies.ipynb file
+below the code that cleans the running time column in the wiki_movies_df DataFrame from ETL_clean_wiki_movies.ipynb, add the code that cleans the Kaggle metadata.
+Merge the wiki_movies_df DataFrame and the kaggle_metadata DataFrames, then name the new DataFrame, movies_df.
+Drop unnecessary columns from the movies_df DataFrame.
+Add the fill_missing_kaggle_data() function that fills in the missing Kaggle data on the movies_df DataFrame.
+Call the fill_missing_kaggle_data() function with the movies_df DataFrame and the Kaggle and Wikipedia columns to be cleaned as the arguments.
+Filter the movies_df DataFrame to keep the necessary columns.
+Rename the columns in the movies_df DataFrame.
+Transform and merge the ratings DataFrame with the movies_df DataFrame, name the new DataFrame movies_with_ratings_df, then clean the movies_with_ratings_df DataFrame.
+Use the variables provided to create a path to the Wikipedia data, the Kaggle metadata, and the MovieLens rating data files.
+Set the three variables from Step 17 of ETL_clean_wiki_movies.ipynb equal to the function created in the first python file we created.
+Set the DataFrames from the return statement after Step 9 equal to the file names in Step 11.
+Check that your wiki_movies_df DataFrame is the same as in ETL_clean_wiki_movies.ipynb.
+Confirm that your DataFrames look correct using the .head() method
+Finally, make sure you have a config file setup to connect with your postgres database. Confirm that the movies table has 6,052 rows and the ratings table has 26,024,289 rows
 
