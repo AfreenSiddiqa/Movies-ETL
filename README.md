@@ -57,4 +57,5 @@ Set the three variables in Step 17 equal to the function created in Deliverable 
 Set the wiki_movies_df equal to the wiki_file variable.
 Add the columns from wiki_movies_df DataFrame to a list, and confirm that they are the same as this image:
 
+![image](https://user-images.githubusercontent.com/93686963/169939630-97ce469e-2d02-4beb-bea4-ff94be53099b.png)
 
