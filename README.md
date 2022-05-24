@@ -15,6 +15,13 @@ Amazing Prime loves the dataset and wants to keep it updated on a daily basis. B
  3. Deliverable 3: Extract and Transform the Kaggle Data
  4. Deliverable 4: Create the Movie Database
  5. Deliverable 5: A written report on the Movie Database analysis README.md.
+
+Deliverable 1: Write an ETL Function to Read Three Data Files
  
- 
+ Using your knowledge of Python, Pandas, the ETL process, and code refactoring, write a function that reads in the three data files and creates three separate DataFrames.
+
+1.An ETL function is written to read in the three data files.
+2.The function converts the Wikipedia JSON file to a Pandas DataFrame, and the DataFrame is displayed in the ETL_function_test.ipynb file.
+3.The function converts the Kaggle metadata file to a Pandas DataFrame, and the DataFrame is displayed in the ETL_function_test.ipynb file.
+4.The function converts the MovieLens ratings data file to a Pandas DataFrame, and the DataFrame is displayed in the ETL_function_test.ipynb file.
 
